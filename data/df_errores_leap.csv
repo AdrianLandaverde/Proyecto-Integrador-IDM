@@ -1,0 +1,249 @@
+ID1,Descripción
+0.0,Carga OK
+1.0,No. De CIS no viene
+10.0,Apellido materno con espacios
+100.0,Fecha alta > fecha vigencia
+101.0,Fech vigencia < fecha actual
+102.0,CIS de client c/datos invalido
+103.0,Cliente ya existe en la tabla
+104.0,Error al grabar tabla de crm
+105.0,No. de cuenta no es numérico
+106.0,No de cuenta en ceros
+107.0,CIS no existe en ACPRA(HOGAN)
+108.0,"Nombres, apellidos != en Hogan"
+109.0,Prod. de carga batch CRM ]= 4
+11.0,Ap. Mat. con caracteres inval.
+110.0,Subprod. CRM no es numérico
+111.0,Subprod. CRM es igual a cero
+112.0,Subprod. CRM es diferente a 1
+113.0,Número de canal no es numerico
+114.0,Número de canal es igual a 0
+115.0,Número de canal dif. de 99
+116.0,Tipo de persona no es numérico
+117.0,Tipo de persona igual a 0
+118.0,Tipo de persona diferente de 1
+119.0,Destino no es numérico
+12.0,Ap. Mat. de un sólo caracter
+120.0,Destino es igual a cero
+121.0,Destino es diferente de 1
+122.0,Vector de serv. no es numérico
+123.0,Vector de serv. igual a cero
+124.0,Importe de oblig CRM no es num
+125.0,Importe de oblig CRM es cero
+126.0,Factor capacidad pago no numer
+127.0,Factor capacidad pago es cero
+128.0,Nombre corto p/GA con espacios
+129.0,Client CRM c/pago vencidos HIP
+13.0,Ap. Mat. con caracters repetid
+130.0,Client CRM c/pago vencidos COM
+131.0,Client CRM c/pago venc. WHIRL
+132.0,Cliente CRM en tabla LAR-LEAP
+133.0,RFCs difer. en OSOLC y OTCRM
+134.0,Folios dif en ODINT y OSOLC
+135.0,STA-GENERICO >= 10 y < 30
+136.0,CIS diferentes en CRM y CUPRA
+137.0,Regs de p morales no se proces
+138.0,Regs arch CUPRA deben tener *
+139.0,Código de usuario viene c/espa
+14.0,El nombre no viene inf.
+140.0,Desc del nombre ejec invalida
+141.0,Numero de plaza no es numérico
+142.0,Número de sucursal no numérico
+143.0,Nombre de sucursal con espacio
+144.0,No. de marca TDC no es numéric
+145.0,No. de marca viene con ceros
+146.0,Tipo TDC no es numérico
+147.0,Tipo TDC viene con ceros
+148.0,Clave de marca es inválida
+149.0,Tipo TDC es inválido
+15.0,El nombre viene con espacios
+150.0,Clave de envío no es numérica
+151.0,Cód. de promotor-1 es invalido
+152.0,Cód. de promotor-2 es inválido
+153.0,Nombre del promotor-1 inválida
+154.0,Nombre del promotor-2 inválida
+155.0,Cód de usuario de alta invalid
+156.0,Descripción empresa inválida
+157.0,Descripción de ciudad inválida
+158.0,Números adicionales inválidos
+159.0,El cargo CCH es inválido
+16.0,Nombre viene con caract. inval
+160.0,Dirección alterna es inválida
+161.0,No. de institución no existe
+162.0,Error al actualizar no folio
+163.0,Error al insertar en TE_ODINT
+164.0,Error al insertar en TE_OSOLC
+165.0,Error al insertar en TE_ODCON
+166.0,Error al insertar en TE_EDATG
+167.0,Error de lectura en TE_FPGRB
+168.0,Error al insertar en TE_ECTDC
+169.0,Error al insertar en CHIST
+17.0,Nombre es de un sólo caracter
+170.0,Error al insertar en CHICP
+171.0,Relación de negocio inválida
+172.0,RN no existe en LEAP
+173.0,Error de lectura en TE_ODCRM
+174.0,CIS no corresponde al cliente
+175.0,Client c/folio en trámite LEAP
+176.0,Cliente c/folio en trámite GCC
+177.0,Relación Jurídica en blanco
+178.0,Tipo de relacion en blanco
+179.0,BC-HIT viene en blanco
+18.0,Nombre con caracters repetidos
+180.0,Fecha de proceso en blanco
+181.0,Cap.pago no puede ser 0 p/vect
+182.0,Cve promotor viene en blanco
+183.0,Localidad banxico 0 o no numer
+184.0,Actividad específica en blanco
+185.0,Actividad generica viene en 0s
+186.0,Vector inválido para ese produ
+187.0,Capacidad de pago no numerica
+188.0,Periodicidad pago no numerica
+189.0,Localidad banxico no numérico
+19.0,RFC no viene
+190.0,Cliente cuenta con LC activa
+191.0,Problemas con TE_ILING
+192.0,Client no dado d/alta en krone
+193.0,192 pq cuenta no existe en cis
+194.0,192 pq sector económico invali
+195.0,192 pq sucursal viene en ceros
+196.0,192 pq cuenta no existe ACPRA
+197.0,Folio autorización no dado alt
+198.0,Modalidad no numerica en PECPO
+199.0,Tasa mensual no numérica
+2.0,CIS no numérico
+20.0,1a parte RFC con caract. inval
+200.0,Tasa anual no es numérica
+201.0,Factor1-krn no es numerico
+202.0,Factor2-krn no es numerico
+203.0,Factor3-krn no es numerico
+204.0,Tasa-ord no es numerica
+206.0,Número de plazo no es numerico
+207.0,Imp. d/comis. de apertura inv.
+208.0,Folio autorización no dadoalta
+209.0,Línea de crédito no calculada
+21.0,Fecha del RFC invalida
+210.0,No existe SUCURSAL en TC_OSUCS
+211.0,Folio duplicado en CRM
+212.0,Error en folio CRM
+213.0,Error en originación CRM
+214.0,Error en la solicitud CRM
+215.0,Error al insertar TW_EDATG_CRM
+216.0,Error al insertar TW_CHIST_CRM
+217.0,Error al insertar TW_CHICP_CRM
+218.0,Error al insertar TW_ECCPN_CRM
+219.0,Error al insertar TW_ILING_CRM
+22.0,Homoclave de RFC invalida
+220.0,No hay datos en TE_PECPO
+221.0,CAT que Kroner regreso es 0
+222.0,Sucursal obligat. p/este prod.
+223.0,Modalidad no numérica TE_PECPO
+224.0,Tasa mens no numérica TE_PECPO
+225.0,Tasa anual no numérica TE_PECP
+226.0,FACTOR1-KRN no numeric TE_PECP
+227.0,FACTOR2-KRN no numeric TE_PECP
+228.0,FACTOR3-KRN no numeric TE_PECP
+229.0,TASA-ORD no numerica TE_PECPO
+23.0,Fecha de nacimiento no viene
+230.0,Comision apertura no numerico
+231.0,Cursor (TE_PECPO) sin params
+232.0,IVA no numerico en lim credito
+233.0,Imp pago no numerico p/limcred
+234.0,Tasa no numerica p/lim credito
+235.0,Plazo no numérico p/lim credit
+236.0,lim_cred >=minimo y <=maximo
+237.0,Imp pago < capaci autoriz min
+238.0,No existe RN en TE_IPARM
+239.0,"Codigo de formula !=1,2,3,4"
+24.0,Fecha de nacimiento no numeric
+240.0,Num. cotización no numérico
+241.0,Num. cotización viene en ceros
+242.0,No existe plazo máx d/disposic
+243.0,Tasa base moratoria = espacios
+244.0,Clave de tipo hábil invalida
+245.0,Clave de prepagos invalida
+246.0,Submodalidad no numérica
+247.0,Clave del esquema inválida
+248.0,Cotización no asociada a RN
+25.0,Fecha de nacimiento en cero
+26.0,Fecha de Nacimiento invalida
+27.0,Fecha de Nac mayor a la actual
+28.0,Client no puede tener > 100 a¦
+29.0,Fecha Nac y RFC no coinciden
+3.0,CIS no valido
+30.0,La calle no viene informada
+31.0,La calle viene con espacios
+32.0,Calle viene con caracts. inval
+33.0,Calle es de 1 sólo caracter
+34.0,Calle con caracteres repetidos
+35.0,No. exterior viene con espacio
+36.0,No. exterior con caracts inval
+37.0,No. interior viene con espacio
+38.0,No. interior con caracts inval
+39.0,La colonia no viene informada
+4.0,Apellido paterno no viene inf
+40.0,La colonia viene con espacios
+41.0,Colonia con caracters invalids
+42.0,Colonia de un sólo caracter
+43.0,Colonia con caracteres repetid
+44.0,Código de municipio no viene
+45.0,Código municipio no numérico
+46.0,Código municipio viene cero
+47.0,Código municipio no existe
+48.0,Código estado no viene
+49.0,Código estado no es numérico
+5.0,Apellido paterno con espacios
+50.0,Código estado viene en cero
+51.0,Código estado no existe
+52.0,Rel estado-municipio no existe
+53.0,Código postal (CP) no viene
+54.0,Código postal no es numérico
+55.0,Código postal viene en cero
+56.0,CP presentó errores en catalog
+57.0,Teléfono de casa no viene
+58.0,Tel. casa no es num o c/spaces
+59.0,Lada telef. casa es incorrecta
+6.0,Ap. Pat. con caracteres inval.
+60.0,Telefono casa viene incompleto
+61.0,Tel. oficina no num o c/spaces
+62.0,Lada tel oficina es incorrecto
+63.0,Tel. oficina viene incompleto
+64.0,Tel. celular no num o c/spaces
+65.0,Tel. celular viene incompleto
+66.0,Producto no viene especificado
+67.0,Producto no es numérico
+68.0,Producto viene en cero
+69.0,Producto no se encuentra activ
+7.0,Ap. Pat. de un solo caracter
+70.0,Cód aplicacion product es cero
+71.0,El producto no existe
+72.0,Instrumento no viene especific
+73.0,Instrumento no es numérico
+74.0,Instrumento viene en cero
+75.0,Instrumento no esta activo
+76.0,Instrumento no existe
+77.0,Tipo cliente no viene
+78.0,Tipo cliente no es numérico
+79.0,Tipo cliente es cero
+8.0,Ap. Pat. con caracters repetid
+80.0,Tipo cliente es dif. de 1 o 2
+81.0,Lim cred no viene y es req
+82.0,Limite de crédito no numérico
+83.0,Lim cred cero y client preauto
+84.0,Ingreso o cap pago no deben ir
+85.0,Lim credit no va (tipoclien=2)
+86.0,Ingresos req si cliente preaut
+87.0,Los ingresos no son numéricos
+88.0,Ingresos vienen en cero
+89.0,Ingresos menor al monto minimo
+9.0,No viene ningún apellido
+90.0,No hay parametros en cat 1885
+91.0,Capacidad de pago no numerica
+92.0,Fecha de alta no viene informa
+93.0,Fecha de alta no es numérica
+94.0,Fecha de alta viene en cero
+95.0,Fecha de alta no cumple format
+96.0,Fecha de vig de BNC no viene
+97.0,Fecha de vig de BNC no numeric
+98.0,Fecha de vig de BNC viene cero
+99.0,Fech de vig de BNC sin formato

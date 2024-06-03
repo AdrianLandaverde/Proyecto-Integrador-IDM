@@ -1,0 +1,315 @@
+ID1,Descripción
+201.0,El reg. no cumple con layout
+202.0,RFC con caracteres invalidos
+203.0,No cumple c/formato min. p/RFC
+204.0,Edo. civil no permitido
+205.0,Cód. Pob. debe inf. X Proceso
+206.0,Direccion 2 con caractrs inval
+207.0,Dirección 2 c/1 solo carácter
+208.0,Nombre corto c/caract invalido
+209.0,Nombre corto c/1 solo caracter
+210.0,Marca TDC no es numérica
+211.0,Marca TDC es cero
+212.0,Tipo TDC no es numérico
+213.0,Tipo TDC es cero
+214.0,Numero de cuenta no numérica
+215.0,Numero de cuenta es cero
+216.0,Comisión no es numérico
+217.0,Imp. de oblig. no es numérico
+218.0,Factor no es numérico
+219.0,Cod. Edo. no existe en EDOSMX
+220.0,Cod. Edo. o Pob. no existen
+221.0,Subprod. TDC no cumple format
+222.0,Subprod. TDC c/caract. invalid
+223.0,Subprod INM no cumple formato
+224.0,Subprod INM c/caract. invalido
+225.0,Rel Juridica no cumple formato
+226.0,Relacion Juridica no numerica
+227.0,Cve promotor no cumple formato
+228.0,Inconsistencia poblac./estado
+229.0,No exist pob p/ edo proporcion
+230.0,Los apellidos son requeridos
+231.0,Estado civil no viene y es req
+232.0,Dirección 2 es requerida
+233.0,Tel. oficina es requerido
+234.0,Tel celular es requerido
+235.0,Ingreso es requerido
+236.0,Nombre corto es requerido
+237.0,Lim. credito es requerido
+238.0,Marca TDC es requerida
+239.0,Tipo TDC es requerido
+240.0,Num cuenta no viene y es req.
+241.0,Comision no viene y es requeri
+242.0,Imp de oblig. es requerido
+243.0,Factor no viene y es requerido
+244.0,Cve promotor es requerida
+245.0,Ciudad tiene un solo caracter
+246.0,Subprod TDC es requerido
+247.0,Subprod INM es requerido
+248.0,Subprod CP es requerido
+249.0,Telefono casa < a 7 digitos
+250.0,Rel Jurid. no exist en LEGREL
+251.0,Telefono oficina < a 10 digito
+252.0,CIS rebasa longitud permitida
+253.0,Apellidos rebasa longitud
+254.0,Nombre rebasa longitud
+255.0,RFC rebasa longitud permitida
+256.0,Fec. Nac. rebasa longitud
+257.0,Edo. civil rebasa longitud
+258.0,Direccion rebasa longitud
+259.0,Colonia rebasa longitud
+260.0,Cod poblacion rebasa longitud
+261.0,Cod estado rebasa longitud
+262.0,Cod Postal rebasa longitud
+263.0,Tel de casa rebasa longitud
+264.0,Tel de oficina rebasa longitud
+265.0,Tel celular rebasa longitud
+266.0,Ingreso rebasa longitud
+267.0,Nombre corto rebasa longitud
+268.0,Limite credito rebasa longitud
+269.0,Marca TDC rebasa longitud
+270.0,Tipo TDC rebasa longitud
+271.0,Num de cuenta rebasa longitud
+272.0,Telefono celular < a 10 digito
+273.0,Importe oblig rebasa longitud
+274.0,Factor rebasa longitud
+275.0,Vigencia rebasa longitud
+276.0,Cve promotor rebasa longitud
+277.0,Rel Negocio rebasa longitud
+278.0,Subprod TDC rebasa longitud
+279.0,Subprod INM rebasa longitud
+280.0,Rel Juridica rebasa longitud
+281.0,Registro duplicado
+282.0,No existe el cliente
+283.0,Tipo relacion no cumple format
+284.0,Tipo relacion rebasa longitud
+285.0,Tipo relacion c/caract invalid
+286.0,BC-HIT no cumple con formato
+287.0,BC-HIT rebasa la longitud
+288.0,BC-HIT con caracteres invalido
+289.0,Fec Proceso (riesg) sin format
+290.0,Fec Proceso (riesg) rebasa lon
+291.0,Fec Proc (riesg) c/caract inva
+292.0,Fec Proc (riesg) > a la actual
+293.0,Subprod CP no cumple formato
+294.0,Subprod CP rebasa longitud
+295.0,Subprod CP con carac invalidos
+296.0,Rel Juridica no viene y es req
+297.0,Tip relacion no viene y es req
+298.0,BC-HIT no viene y es requerido
+299.0,Fec Proc (riesg) es requerida
+301.0,Marca TDC no es valida
+302.0,Tipo TDC no es valido
+303.0,Estado civil no es valido
+304.0,Estado no es valido
+305.0,Con Relacion Negocio Diferente
+307.0,Problema Insercion en OTCRM
+310.0,Oferta con importe < cargado
+311.0,Exist ofer con status no actua
+312.0,No exist vect serv para LEAP
+313.0,Multiofer con status no actual
+314.0,Multiofer con dif status
+320.0,No envío LEAP (oferta autoriz)
+321.0,"No envío LEAP (STA<>A,NV,C,SL)"
+322.0,No envío LEAP (Ofer Supp Best)
+323.0,"Multiof. no Act (STA<>F,NC,NV)"
+330.0,Marca TDC no existe en catalog
+331.0,El producto no es válido
+332.0,Tipo TDC no existe en TIPTDC
+333.0,Periodicidad pago no existe.
+334.0,El proceso no es válido
+335.0,Numero de cuenta es cero
+336.0,Estado civil no numérico
+337.0,ID de asignación no es válido
+338.0,Edo Civil no existe en EDOCIV
+339.0,No exist CIS c/prod-proc dados
+340.0,Registro asignado correctament
+341.0,ID de estaus no es numérico
+342.0,ID status p/activac no permiti
+343.0,ID status rebasa longitud perm
+344.0,Cliente eliminado de la Base
+345.0,CIS no existente
+346.0,Oferta activada correctamente
+347.0,No exist CIS c/prod-subpr-proc
+348.0,Subproducto no es numérico
+349.0,Subproducto rebasa longitud
+360.0,No existe archivo de Control
+361.0,Cifra control no es numérica
+362.0,Fecha de arch CTRL dif de hoy
+363.0,Arch procesar c/fech dif a hoy
+364.0,No puede escribir archiv acuse
+365.0,"No existe arch(Carga, GA,Acti)"
+370.0,No exist arch CTRL p/GA a RT
+371.0,Cifra de CTRL no es numérica
+372.0,Fecha de arch CTRL difer a hoy
+373.0,Fecha arch (GA a RT) dif a hoy
+374.0,No pued write arch acuse GA-RT
+375.0,No existe archi p/asign(GA-RT)
+380.0,Oferta con status desconocido
+381.0,Oferta actualizada correctamen
+382.0,No exist ofert report por LEAP
+383.0,No eliminado por status invald
+384.0,"Baja Fis. x Dep. (8,4,6,3,9)"
+385.0,No existe oferta en supply
+386.0,No viene informado vector proc
+388.0,Baja Fis. x Dep. (No Concluid)
+389.0,Baja Logica x Depuracion
+390.0,No puede escribir arch results
+391.0,Oferta eliminada lógicamente
+392.0,Oferta borrada por solicitud
+395.0,El canal está vacío
+396.0,Canal no es letras o números
+397.0,Canal tiene longitud mayor
+400.0,Rechazados GA por LEAP
+401.0,Pend grabar aprobados por LEAP
+410.0,No aplico regla env LEAP/ rech
+414.0,Tipo cliente no exist en catal
+415.0,Tipo cliente no cumple formato
+416.0,Tipo cliente rebasa longitud
+417.0,Tipo cliente con caracts inval
+418.0,Periodicidad pago no numérica
+419.0,Periodicidad pago no valida
+420.0,Periodicidad pago rebasa long.
+421.0,Localidad banxico no numérica
+422.0,Localidad Banxico rebasa longi
+423.0,Activ. especifica no numérica
+424.0,Activ. específica rebasa long.
+425.0,Activ. generica no es numérica
+426.0,Activdad genérica rebasa long.
+427.0,Clave de sexo no es numérica
+428.0,Clave de sexo no es válida
+429.0,Band. de cta de cheques no num
+430.0,Institución no es numérica
+431.0,Institución no es válida
+432.0,Inconsistencia en instit-empre
+433.0,Empresa no es numérica
+434.0,Empresa no es válida
+435.0,Sucursal debe inf. X Proceso
+436.0,Sucursal rebasa longitud
+437.0,Identificación Per.no numérica
+438.0,Riesgo 7 rebasa longitud
+439.0,Riesgo 8 no es numérico
+440.0,Riesgo 8 rebasa longitud
+441.0,Riesto 9 no es numérico
+442.0,Riesgo 9 rebasa longitud
+443.0,Riesgo 10 no es numérico
+444.0,Riesgo 10 rebasa longitud
+445.0,Ciudad tiene caracts inválidos
+446.0,Ciudad rebasa longitud
+447.0,Producto no es válido
+448.0,Subprod no válido (segun prod)
+449.0,Proces no válido (segun produ)
+450.0,Capacidad de pago no numérico
+451.0,Capacidad pago rebasa longitud
+452.0,Capacidad pago no es válida
+453.0,Tipo relación no numérica
+454.0,Tipo relación no existe en cat
+455.0,BC-HIT no numérico
+456.0,BC-HIT no existe en catalogo
+457.0,Cve sexo no existe en catalogo
+458.0,Institución no existe en cat.
+459.0,Empresa no existe en catalogo
+460.0,Inconsistencia instit-empresa
+461.0,Tipo persona no es numérico
+462.0,Tipo persona no esta en el cat
+463.0,Producto no informado
+464.0,Producto no numérico
+465.0,Producto no existe en catalogo
+466.0,Subproducto no informado
+467.0,Subproducto no numérico
+468.0,Subprod no exist en cat PRDSUB
+469.0,Proceso no informado
+470.0,Proceso no numérico
+471.0,Proceso no existe en PROCES
+472.0,Vigencia no informada
+473.0,Ingreso no informado
+474.0,Registros duplicados al grabar
+475.0,Falta Capa.Pago X Proc. Y Prod
+476.0,Falta Lim.Cred. X Proc. Y Prod
+477.0,Los Apellidos deben Inf. X Pro
+478.0,Nombres deben inf. X Proc.
+479.0,RFC debe inf. X Proceso
+480.0,Fecha Nac. Es Obligatoria X Pr
+481.0,Direccion 1 debe inf. X Proc.
+482.0,Colonia debe inf. X Proc.
+483.0,Nombre corto debe inf. X Proc.
+484.0,Marca TDC debe inf. X Proc.
+485.0,Tipo TDC debe inf. X Proc.
+486.0,Periodicidad P. debe inf. X P.
+487.0,No. Cuenta debe inf. X Proc.
+488.0,Loc.Banxico debe inf. X Proc.
+489.0,Act. Especifica debe inf. X P.
+490.0,Act. Generica debe inf. X Pro.
+491.0,Edo.Civil debe inf. X Proceso.
+492.0,Cve.Sexo debe inf. X Proceso
+493.0,Fec.Proceso no informada
+494.0,CIS no informado
+495.0,Institución no informada
+496.0,Empresa no informada
+497.0,Factor debe inf. X Proceso
+498.0,Importe oblig.debe inf. X Proc
+499.0,Bandera cta.che.debe inf. X Pr
+500.0,Actualizacion correcta d linea
+501.0,No se encontró la oferta
+502.0,Incon en mto lin vs proc env
+504.0,Oferta finalizada correctament
+505.0,Oferta no finalizada
+600.0,Campo no cumple con longitud
+601.0,Campo con null y es requerido
+602.0,Campo con -1 y es requerido
+603.0,Campo varchar c/cars invalidos
+604.0,Campo no es numérico
+607.0,Hay oferta CEXT y rechaza RT
+608.0,No existe oferta en APSC
+700.0,Tabla TE_CLIENT vacía
+701.0,Tabla TW_ORCRM vacía
+702.0,Tabla TW_SUPPLY vacia
+703.0,TABLA TW_OTCRM no está vacía
+704.0,Ciudad debe inf. X Proceso
+705.0,Tipo Pers. debe inf. X Proceso
+706.0,Riesgos 8 debe inf. X Proceso
+707.0,Riesgos 9 debe inf. X Proceso
+708.0,Riesgos 10 debe inf. X Proceso
+709.0,Para Proc=001 Dest. > 2000000
+710.0,P. ¬ 001 Des. > 1000000 < 2000
+711.0,Destino no informado
+712.0,Cotización PFS no informada
+713.0,Cotización PFS no es numérica
+714.0,Cotización ME no informada
+715.0,Cotización ME no es numérica
+716.0,TABLA TW_OGCRM no está vacía
+717.0,Oferta sin Linea
+718.0,Reg. ausente 1ra. resp LEAP
+719.0,Linea-Canal 99 y Monto > 30000
+720.0,DISCREP / STATUS LEAP-APSC
+721.0,Bnd OH NO numér/OFERTA OK
+722.0,Bnd OH NO infor/FALTA COM TOT
+723.0,Bnd OH Carac inv/FALTA COM PAR
+724.0,TC No numer/CAMBIO C-PFU S-PFU
+725.0,TC NO infor/OFERTA NO ENCONTRA
+726.0,TPO-CTE-OFER CON CARACTS INVAL
+727.0,TPO-CTE-OFER NO EXIST EN CATAL
+728.0,BND OFER OHCARDS ASIGN INVALID
+730.0,ID_SHERWOOD CON ESPACIOS
+732.0,BANDERA BAL-TRASFER EN ESPACIO
+733.0,CVE. PROMOTOR VIENEN ESPACIOS
+734.0,NO. CREDITO TOP-UP EN ESPACIOS
+735.0,NO. CREDITO NO INFORMADO X CRM
+736.0,ERROR EN CREDITO TOP-UP
+737.0,OFERTA NO TOP-UP CON CREDITO
+740.0,NO EXISTE LA RELAC. PROC-DEST
+741.0,RELAC. PROC-DEST ERRONEA
+742.0,NACIONALIDAD NO INFORMADA
+743.0,NACIONALIDAD NO ES NUMERICA
+744.0,PCT NO INFORMADO
+745.0,PCT NO ES NUMERICO
+746.0,CLIENTE TIENE OFERTA BB
+750.0,OFERTA NO VALIDADA POR LEAP
+751.0,DIRECCION 2 CON VALOR INVALIDO
+752.0,Apellido sin */mas de 1 *
+753.0,CLOUSTER CON ESPACIOS
+754.0,CLOUSTER MAYOR A 999
+755.0,SCORE CON ESPACIOS
+756.0,CLOUSTER CON ESPACIOS
+757.0,SCORE NO ES NUMERICO
+758.0,SCORE ES MAYOR A 999
