@@ -1,14 +1,34 @@
-/* Home.module.css */
+/* Home.css */
 .home {
     text-align: center;
-    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.home h1 {
-    color: #333;
+.home img {
+    max-width: 100%;
+    height: auto;
 }
 
-.home a {
-    color: #007bff;
-    text-decoration: none;
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    flex: 1 0 200px; /* flex-grow | flex-shrink | flex-basis */
+    margin: 15px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .team-member {
+        flex: 1 0 100%; /* On small screens, team members take up full width */
+    }
 }
