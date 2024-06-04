@@ -1,7 +1,19 @@
 /* App.module.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #01204E;
+    --secondary-color: #028391;
+    --tertiary-color: #F6DCAC;
+    --quaternary-color: #FEAE6F;
+}
+
 .nav {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: var(--primary-color);
+    padding: 15px 0;
     margin-bottom: 20px;
 }
 
@@ -29,3 +41,4 @@
 .nav a.active {  /* Add this line */
     color: #007bff;
 }
+
