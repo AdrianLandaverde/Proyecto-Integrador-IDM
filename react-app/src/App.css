@@ -2,12 +2,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: #1A1C2A;
+    color: #ffffff;
 }
 
 :root {
-    --primary-color: #01204E;
+    --primary-color: #30419B;
     --secondary-color: #028391;
-    --tertiary-color: #F6DCAC;
+    --tertiary-color: #222437;
     --quaternary-color: #FEAE6F;
 }
 
