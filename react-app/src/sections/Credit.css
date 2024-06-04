@@ -1,0 +1,15 @@
+.iframeStyleSmall {
+    width: calc(50% - 20px);
+    height: 200px;
+    border: none;
+    background-color: var(--tertiary-color);
+    margin: 10px;
+}
+
+.iframeStyleBig {
+    width: calc(50% - 20px);
+    height: 500px;
+    border: none;
+    background-color: var(--tertiary-color);
+    margin: 10px;
+}

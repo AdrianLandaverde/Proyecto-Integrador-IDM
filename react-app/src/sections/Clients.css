@@ -1,7 +1,7 @@
 .iframeStyle {
-    width: calc(50% - 30px);
+    width: calc(33% - 20px);
     height: 300px;
     border: none;
     background-color: var(--tertiary-color);
-    margin: 15px;
+    margin: 10px;
 }
