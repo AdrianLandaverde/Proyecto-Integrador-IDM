@@ -82,3 +82,85 @@
 .team-member img:hover {
     transform: scale(1.1);
 }
+
+/* Home.css */
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.programming-icon {
+    font-size: 100px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.programming-icon:hover {
+    transform: scale(1.1);
+}
+
+
+#iconPython:hover {
+    color: #3776AB;
+}
+
+#iconReact:hover {
+    color: #61DAFB;
+}
+
+#iconQlik:hover {
+    color: #FCA326;
+}
+
+#iconPandas:hover {
+    color: #150458;
+}
+
+#iconGeopandas:hover {
+    color: #23A9E1;
+}
+
+#iconFolium:hover {
+    color: #7BAADF;
+}
+
+#iconHtml5:hover {
+    color: #E34F26;
+}
+
+#iconCss3:hover {
+    color: #1572B6;
+}
+
+#iconJs:hover {
+    color: #F7DF1E;
+}
+
+#iconPlotly:hover {
+    color: #3F4F75;
+}
+
+#iconFastapi:hover {
+    color: #009688;
+}
+
+#iconScikitlearn:hover {
+    color: #F7931E;
+}
+
+#iconGithub:hover {
+    color: #181717;
+}
+
+#iconAws:hover {
+    color: #232F3E;
+}
+
+#iconAccess:hover {
+    color: #A4373A;
+}

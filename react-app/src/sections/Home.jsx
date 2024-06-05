@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { Grid, Typography, Box } from '@material-ui/core';
-
+import { FaPython, FaReact, FaHtml5, FaCss3, FaJs, FaGithub, FaAws } from 'react-icons/fa';
+import { SiQlik, SiPandas, SiGeopandas, SiFolium, SiPlotly, SiFastapi, SiScikitlearn, SiMicrosoftaccess } from "react-icons/si";
 
 const Home = () => {
     return (
@@ -72,10 +73,32 @@ const Home = () => {
 
                 <div className='team-member'>
                     <img src="images/" alt="Team member 7" />
-                    <p>Deborah Tirado</p>
+                    <p>Deborah Tirado Hernández</p>
                 </div>
 
             </div>
+
+
+            <h2>Tecnologías Usadas</h2>
+
+            <div className="icon-container">
+                <FaPython className="programming-icon" id='iconPython' />
+                <SiPandas className="programming-icon" id='iconPandas' />
+                <SiGeopandas className="programming-icon" id='iconGeopandas' />
+                <SiFolium className="programming-icon" id='iconFolium' />
+                <SiPlotly className="programming-icon" id='iconPlotly' />
+                <SiScikitlearn className="programming-icon" id='iconScikitlearn' />
+                <SiFastapi className="programming-icon" id='iconFastapi' />
+                <FaGithub className="programming-icon" id='iconGithub' />
+                <FaAws className="programming-icon" id='iconAws' />
+                <SiQlik className="programming-icon" id='iconQlik' />
+                <SiMicrosoftaccess className="programming-icon" id='iconAccess' />
+                <FaHtml5 className="programming-icon" id='iconHtml5' />
+                <FaCss3 className="programming-icon" id='iconCss3' />
+                <FaJs className="programming-icon" id='iconJs' />
+                <FaReact className="programming-icon" id='iconReact' />
+            </div>
+
         </div>
     );
 }
