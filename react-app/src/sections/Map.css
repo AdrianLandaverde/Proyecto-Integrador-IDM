@@ -1,12 +1,26 @@
-.slider-container {
-    background-color: var(--tertiary-color);
-    padding: 1rem;
-    margin: 10px;
-    width: 95%;
+:root {
+    --container-padding: 1rem;
+    --container-margin: 10px;
+    --container-width: 95%;
+    --container-bg-color: var(--tertiary-color);
+}
+
+.slider-container, .graph_demographic, .graph_map, .iframeMap {
+    padding: var(--container-padding);
+    margin: 0;
+    width: var(--container-width);
+}
+
+.slider-container{
+    box-sizing: border-box;
+    background-color: var(--container-bg-color);
+}
+
+.slider-container h4, .slider-container div {
+    margin: 0rem;
 }
 
 .slider-container h4 {
-    margin: 0rem;
     font-weight: normal;
 }
 
@@ -14,7 +28,6 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin: 0rem;
 }
 
 .slider-container input[type="range"] {
@@ -25,65 +38,54 @@
     text-align: center;
     display: block;
 }
+
 .contentMap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
-    height: 90vh
+    height: 90vh;
 }
+
+.graph_demographic, .graph_map, .iframeMap {
+    height: 500px;
+    border: none;
+}
+
 .contentMap .graph_demographic:nth-child(1) {
     grid-column: 1;
     grid-row: 1;
-    width: 100%;
 }
 
 .contentMap .graph_demographic:nth-child(2) {
     grid-column: 2;
     grid-row: 1;
-    width: 100%;
-}
-
-.graph_demographic {
-    width: 100%;
-    height: 500px;
-    border: none;
-    background-color: var(--tertiary-color);
-    margin: 10px;
-}
-
-.graph_map {
-    width: 100%;
-    height: 500px;
-    border: none;
-    background-color: var(--tertiary-color);
-    margin: 10px;
 }
 
 .map {
     display: flex;
-    justify-content: space-between;
 }
 
-.map .content {
+.map .content, .map .contentMap {
     flex: 1;
-}
-
-.map .contentMap {
-    flex: 1;
+    width: 100%;
 }
 
 .iframeMap {
-    width: 100%;
     height: 85vh;
-    border: none;
-    margin: 10px;
 }
 
-
-
-.contentMap iframe{
+.contentMap iframe {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+iframe {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin:10px;
+    padding: 10px;
+    background-color: var(--container-bg-color);
 }

@@ -3,13 +3,17 @@
     height: 200px;
     border: none;
     background-color: var(--tertiary-color);
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .iframeStyleBig {
     width: calc(50% - 20px);
-    height: 500px;
+    height: 430px;
     border: none;
     background-color: var(--tertiary-color);
     margin: 10px;
+    border-radius: 10px;
 }

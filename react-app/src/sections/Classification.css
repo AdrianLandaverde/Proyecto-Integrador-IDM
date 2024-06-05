@@ -6,11 +6,12 @@
 }
 
 .grid-item {
-    width: 100%;
-    height: 50vh;
+    width: calc(100% - 10px);
+    height: 40vh;
     object-fit: contain;
     background-color: var(--tertiary-color);
     margin: 10px;
+    margin-bottom: 0px;
     border: none;
     align-items: center;
 }
@@ -19,6 +20,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.grid-item img{
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
 }
 
 .dropdown {
@@ -33,6 +41,7 @@
     outline: none;
     transition: background-color 0.3s ease;
     align-items: center;
+    margin: 0px;
 }
 
 .dropdown:hover {

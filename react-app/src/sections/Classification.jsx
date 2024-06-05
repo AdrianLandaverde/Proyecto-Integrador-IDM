@@ -45,7 +45,11 @@ const Classification = () => {
 
     return (
         <div className='classification'>
-            <Tabs value={value} onChange={handleChange}>
+            <Tabs
+                value={value}
+                onChange={handleChange}
+                TabIndicatorProps={{ style: { backgroundColor: '#30419B' } }}
+            >
                 <Tab label="Tarjeta de Crédito" />
                 <Tab label="Préstamo personal" />
                 <Tab label="Inmediauto" />

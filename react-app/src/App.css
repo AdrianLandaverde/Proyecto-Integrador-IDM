@@ -38,8 +38,7 @@ body {
     text-align: center;  /* Center the text within the link */
 }
 
-.nav a:hover,
-.nav a.active {  /* Add this line */
+.nav a:hover, .nav a.active {
     color: #007bff;
+    text-decoration: underline;
 }
-
