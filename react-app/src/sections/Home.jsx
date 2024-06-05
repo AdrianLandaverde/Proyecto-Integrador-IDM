@@ -32,9 +32,9 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <Box display="flex" flexDirection="column" alignItems="center">
-                            <img className="image" src="images/tec.jpeg" alt="Company1" />
                             <img className="image" src="https://dataiq.mx/wp-content/uploads/2022/04/logo-DataIQ.png" alt="Company2" />
                             <img className="image" src="https://www.prisma-informatik.de/newsroom/wp-content/uploads/2019/06/Qlik-Logo_RGB-768x226.png" alt="Company3" />
+                            <img className="image" src="images/tec.png" alt="Company1" />
                         </Box>
                     </Grid>
                 </Grid>
@@ -42,39 +42,55 @@ const Home = () => {
 
             <h2>Nuestro Equipo</h2>
             <div className='team'>
-                <div className='team-member'>
-                    <img src="images/adrian.JPG" alt="Team member 1" />
-                    <p>Adrián Landaverde Nava</p>
-                </div>
-                <div className='team-member'>
-                    <img src="images/yair.png" alt="Team member 2" />
-                    <p>Jesús Yair Ramirez Islas</p>
-                </div>
+                <a href="https://www.linkedin.com/in/adrian-landaverde-nava/" target="_blank" rel="noopener noreferrer">
 
-                <div className='team-member'>
-                    <img src="images/luis.jpeg" alt="Team member 3" />
-                    <p>Luis Gerardo Lagunes Nájera</p>
-                </div>
+                    <div className='team-member'>
+                        <img src="images/adrian.JPG" alt="Team member 1" />
+                        <p>Adrián Landaverde Nava</p>
+                    </div>
+                </a>
 
-                <div className='team-member'>
-                    <img src="images/cristian.jpeg" alt="Team member 4" />
-                    <p>Cristian Gonzaga López</p>
-                </div>
+                <a href="https://www.linkedin.com/in/jes%C3%BAs-yair/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/yair.png" alt="Team member 2" />
+                        <p>Jesús Yair Ramirez Islas</p>
+                    </div>
+                </a>
 
-                <div className='team-member'>
-                    <img src="images/evelyn.jpg" alt="Team member 5" />
-                    <p>Evelyn Geovanna Pérez Gómez</p>
-                </div>
+                <a href="hhttps://www.linkedin.com/in/luis-gerardo-lagunes-najera-b09399239/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/luis.jpeg" alt="Team member 3" />
+                        <p>Luis Gerardo Lagunes Nájera</p>
+                    </div>
+                </a>
 
-                <div className='team-member'>
-                    <img src="images/michael.jpg" alt="Team member 6" />
-                    <p>Michael Steven Delgado Caicedo</p>
-                </div>
+                <a href="https://www.linkedin.com/in/cristian-gl/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/cristian.jpeg" alt="Team member 4" />
+                        <p>Cristian Gonzaga López</p>
+                    </div>
+                </a>
 
-                <div className='team-member'>
-                    <img src="images/" alt="Team member 7" />
-                    <p>Deborah Tirado Hernández</p>
-                </div>
+                <a href="https://www.linkedin.com/in/evelyn-geovanna/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/evelyn.jpg" alt="Team member 5" />
+                        <p>Evelyn Geovanna Pérez Gómez</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/michael-steven-delgado-02956823b/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/michael.jpg" alt="Team member 6" />
+                        <p>Michael Steven Delgado Caicedo</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/deborah-tirado-hern%C3%A1ndez-137902260/" target="_blank" rel="noopener noreferrer">
+                    <div className='team-member'>
+                        <img src="images/deborah.jpg" alt="Team member 7" />
+                        <p>Deborah Tirado Hernández</p>
+                    </div>
+                </a>
 
             </div>
 
