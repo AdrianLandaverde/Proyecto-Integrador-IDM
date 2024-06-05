@@ -5,10 +5,9 @@ import './Map.css';
 const Map = () => {
     const [value1, setValue1] = useState(10);
     const [value2, setValue2] = useState(10);
-    const [value3, setValue3] = useState(10);
     const [graphEstados, setgraphEstados] = useState('');
     const [graphCiudades, setgraphCiudades] = useState('');
-    const [graphSucursales, setgraphSucursales] = useState('');
+    const [graphMap, setgraphMap] = useState('');
 
     useEffect(() => {
         fetch(`http://localhost:8000/cuentas_estado/?n_top_estados=${value1}`)
@@ -21,6 +20,12 @@ const Map = () => {
             .then(response => response.text())
             .then(data => setgraphCiudades(data));
     }, [value2]);
+
+    useEffect(() => {
+        fetch(`http://127.0.0.1:8000/cuentas_mapa/?n_top_estados=${value1}`)
+            .then(response => response.text())
+            .then(data => setgraphMap(data));
+    }, [value1]);
 
     return (
         <div className='map'>
@@ -37,11 +42,12 @@ const Map = () => {
                         <label>{value2}</label>
                     </div>
                 </div>
-                <iframe srcDoc={graphEstados} title="API Response" className='graph_demographic' />
-                <iframe srcDoc={graphCiudades} title="API Response" className='graph_demographic' />
+                <iframe srcDoc={graphMap} title="API Response" className='graph_map' />
+
             </div>
             <div className='contentMap'>
-                <iframe className='iframeMap' src='mapa.html'></iframe>
+                <iframe srcDoc={graphEstados} title="API Response" className='graph_demographic' />
+                <iframe srcDoc={graphCiudades} title="API Response" className='graph_demographic' />
             </div>
 
         </div>

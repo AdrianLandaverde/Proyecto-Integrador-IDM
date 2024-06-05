@@ -34,7 +34,7 @@ def top_estados(n_top_estados: int= 10):
     fig = px.treemap(df_demograficos_sucursales['estado'].value_counts().reset_index().iloc[:n_top_estados], 
                         path=['estado'], values='count', title='Cantidad de cuentas por estado',
                         color='count', labels={'count':'Cantidad'}, color_continuous_scale=px.colors.sequential.Blues)
-    fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), title_y=0.99, title_x=0.5,
+    fig.update_layout(margin=dict(l=0, r=0, t=50, b=0), title_y=0.99, title_x=0.5,
                         plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
                         font=dict(color="white"), coloraxis_showscale=False)
     fig.update_traces(textinfo="label+value", marker=dict(line=dict(width=0, color='rgba(0,0,0,0)')))
@@ -46,7 +46,7 @@ def top_ciudades(n_top_ciudades: int= 10):
     fig = px.treemap(df_demograficos_sucursales['ciudad'].value_counts().reset_index().iloc[:n_top_ciudades], 
                         path=['ciudad'], values='count', title='Cantidad de cuentas por ciudad',
                         color='count', labels={'count':'Cantidad'}, color_continuous_scale=px.colors.sequential.Blues)
-    fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), title_y=0.99, title_x=0.5,
+    fig.update_layout(margin=dict(l=0, r=0, t=50, b=0), title_y=0.99, title_x=0.5,
                         plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
                         font=dict(color="white"), coloraxis_showscale=False)
     fig.update_traces(textinfo="label+value", marker=dict(line=dict(width=0, color='rgba(0,0,0,0)')))
