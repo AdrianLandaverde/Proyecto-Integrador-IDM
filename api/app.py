@@ -113,6 +113,13 @@ def shap_tdc(n_test: int= 0):
         shap_values= pickle.load(file)
     plt.clf() 
     shap.plots.waterfall(shap_values[n_test], show=False)
+
+    for ax in plt.gcf().axes:
+        ax.xaxis.label.set_color('white')
+        ax.yaxis.label.set_color('white')
+        ax.tick_params(axis='x', colors='white')
+        ax.tick_params(axis='y', colors='white')
+
     buf = BytesIO()
     plt.savefig(buf, format='png', transparent=True, bbox_inches='tight', pad_inches=0.1)
     buf.seek(0)
@@ -124,6 +131,13 @@ def shap_prestamo(n_test: int= 0):
         shap_values= pickle.load(file)
     plt.clf() 
     shap.plots.waterfall(shap_values[n_test], show=False)
+
+    for ax in plt.gcf().axes:
+        ax.xaxis.label.set_color('white')
+        ax.yaxis.label.set_color('white')
+        ax.tick_params(axis='x', colors='white')
+        ax.tick_params(axis='y', colors='white')
+
     buf = BytesIO()
     plt.savefig(buf, format='png', transparent=True, bbox_inches='tight', pad_inches=0.1)
     buf.seek(0)
@@ -135,6 +149,13 @@ def shap_inmediauto(n_test: int= 0):
         shap_values= pickle.load(file)
     plt.clf() 
     shap.plots.waterfall(shap_values[n_test], show=False)
+
+    for ax in plt.gcf().axes:
+        ax.xaxis.label.set_color('white')
+        ax.yaxis.label.set_color('white')
+        ax.tick_params(axis='x', colors='white')
+        ax.tick_params(axis='y', colors='white')
+
     buf = BytesIO()
     plt.savefig(buf, format='png', transparent=True, bbox_inches='tight', pad_inches=0.1)
     buf.seek(0)
