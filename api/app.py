@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import plotly.express as px
 import pandas as pd
 from fastapi.responses import FileResponse
+from fastapi.responses import HTMLResponse
 
 app = fastapi.FastAPI()
 
@@ -22,33 +23,24 @@ def hello_world():
 
 @app.get('/cuentas_estado/')
 def top_estados(n_top_estados: int= 10):
-    fig= px.bar(df_demograficos_sucursales['estado'].value_counts().reset_index().iloc[:n_top_estados], 
-                x='estado', y="count", title= 'Cantidad de cuentas por estado', text= 'count', 
-                labels={'count':'Cantidad de cuentas', 'estado':'Estado'}, color_discrete_sequence=[color_main])
+    fig = px.treemap(df_demograficos_sucursales['estado'].value_counts().reset_index().iloc[:n_top_estados], 
+                        path=['estado'], values='count', title='Cantidad de cuentas por estado',
+                        color='count', labels={'count':'Cantidad'}, color_continuous_scale=px.colors.sequential.Blues)
     fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), title_y=0.99, title_x=0.5,
-                plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
-                font=dict(color="white"), xaxis={'showgrid': False}, yaxis={'showgrid': False})
-    fig.write_html('output_plot.html')
-    return FileResponse('output_plot.html')
+                        plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
+                        font=dict(color="white"), coloraxis_showscale=False)
+    fig.update_traces(textinfo="label+value", marker=dict(line=dict(width=0, color='rgba(0,0,0,0)')))
+    plot_html = fig.to_html(full_html=False)
+    return HTMLResponse(content=plot_html)
 
 @app.get('/cuentas_ciudad/')
 def top_ciudades(n_top_ciudades: int= 10):
-    fig= px.bar(df_demograficos_sucursales['ciudad'].value_counts().reset_index().iloc[:n_top_ciudades], 
-                x='ciudad', y="count", title= 'Cantidad de cuentas por ciudad', text= 'count', 
-                labels={'count':'Cantidad de cuentas', 'ciudad':'Ciudad'}, color_discrete_sequence=[color_main])
+    fig = px.treemap(df_demograficos_sucursales['ciudad'].value_counts().reset_index().iloc[:n_top_ciudades], 
+                        path=['ciudad'], values='count', title='Cantidad de cuentas por ciudad',
+                        color='count', labels={'count':'Cantidad'}, color_continuous_scale=px.colors.sequential.Blues)
     fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), title_y=0.99, title_x=0.5,
-                plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
-                font=dict(color="white"), xaxis={'showgrid': False}, yaxis={'showgrid': False})
-    fig.write_html('output_plot.html')
-    return FileResponse('output_plot.html')
-
-@app.get('/cuentas_sucursal/')
-def top_sucursales(n_top_sucursales: int= 10):
-    fig= px.bar(df_demograficos_sucursales['NOM_SUC'].value_counts().reset_index().iloc[:n_top_sucursales], 
-                x='NOM_SUC', y="count", title= 'Cantidad de cuentas por sucursal', text= 'count', 
-                labels={'count':'Cantidad de cuentas', 'NOM_SUC':'Sucursal'}, color_discrete_sequence=[color_main])
-    fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), title_y=0.99, title_x=0.5,
-                plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
-                font=dict(color="white"), xaxis={'showgrid': False}, yaxis={'showgrid': False})
-    fig.write_html('output_plot.html')
-    return FileResponse('output_plot.html')
+                        plot_bgcolor='rgba(0, 0, 0, 0)', paper_bgcolor='rgba(0, 0, 0, 0)',
+                        font=dict(color="white"), coloraxis_showscale=False)
+    fig.update_traces(textinfo="label+value", marker=dict(line=dict(width=0, color='rgba(0,0,0,0)')))
+    plot_html = fig.to_html(full_html=False)
+    return HTMLResponse(content=plot_html)
