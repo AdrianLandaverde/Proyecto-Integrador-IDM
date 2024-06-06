@@ -1,4 +1,4 @@
-# 🤖Proyecto-Integrador-IDM🤖
+# 🤖Proyecto Integrador IDM🤖
 
 Este es el proyecto final de la carrera de Ingeniería en Ciencia de Datos y Matemáticas del Tecnológico de Monterrey, Campus Estado de México. El proyecto consistió en analizar una base de datos una empresa bancaria. En el pdf se enceuntra una descripción más a detalle de los datos que nos fueron entregados.
 
