@@ -36,15 +36,42 @@ Se realizó una aplicación web con Frontend en React y Backed en FastAPI (Pytho
 
 1. **Inicio**: Sección donde se muestra una breve descripción del proyecto y los integrantes del equipo.
 
+<video width="840" height="480" controls>
+  <source src="docs/video_inicio.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 2. **Dashboard - Información de clientes**: Sección donde se muestra un dashboard interactivo con información de los clientes de la empresa bancaria.
+
+![Dashboard - Información de clientes](docs/captura_clientes.png)
 
 3. **Dashboard - Información demográfica**: Sección donde se muestra un dashboard interactivo con información demográfica (mapas) de los clientes de la empresa bancaria.
 
+<video width="840" height="480" controls>
+  <source src="docs/video_demografico.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 4. **Dashboard - Información de ofertas**: Sección donde se muestra un dashboard interactivo con información de las ofertas de la empresa bancaria.
+
+<video width="840" height="480" controls>
+  <source src="docs/video_ofertas.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 5. **Modelos de Machine Learning**: Sección donde se muestran los modelos de Machine Learning desarrollados para el proyecto.
 
+<video width="840" height="480" controls>
+  <source src="docs/video_clasificacion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 6. **Interpolación**: Sección donde se muestra un mapa de México con las principales variables de cada uno de los modelos de Machine Learning interpoladas a todo el país.
+
+<video width="840" height="480" controls>
+  <source src="docs/video_interpolacion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ## 📦Estructura del repositorio
 
@@ -72,4 +99,3 @@ Se realizó una aplicación web con Frontend en React y Backed en FastAPI (Pytho
 6. Abrir una segunda terminal y navegar a la carpeta `api`.
 7. Instalar las dependencias del proyecto con el comando `pip install -r requirements.txt`.
 8. Correr la API con el comando `uvicorn app:app --reload`.
-
